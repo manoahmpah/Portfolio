@@ -2,6 +2,14 @@
     justify-content:space-evenly;
     display: flex;
     background-color: #AA9C79;
+    font-style: normal;
+    font-weight: bold;
+    font-size:  30px;
+    line-height: 75px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.075em;
 }
 
 body{
@@ -12,8 +20,21 @@ h1{
     margin: 0px;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+    margin-right: 300px;
 }
-
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 63px;
+}
+h3{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+}
 #section1{
     width: all;
     height: 1024px;
@@ -22,4 +43,17 @@ h1{
 
 #presentation{
     margin-left: 10% ;
+    margin-top: 30%;
+    width: fit-content;
+}
+
+#img img{
+   margin-top: 400px;
+   float: right;
+
+}
+
+#icon{
+    margin-top: 1%;
+    margin-left: 300px;
 }
